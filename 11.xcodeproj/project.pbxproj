@@ -74,6 +74,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E99C407212E3F90008C54DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5E99C409212E3FC4008C54DE /* NSString */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5E99C408212E3FA7008C54DE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5E99C409212E3FC4008C54DE /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		5ECBF0ED205F4FB700E7EB88 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +121,8 @@
 			children = (
 				5ECBF0F9205F4FB700E7EB88 /* AppDelegate.swift */,
 				5ECBF0FB205F4FB700E7EB88 /* ViewController.swift */,
+				5E99C407212E3F90008C54DE /* Category */,
+				5E99C408212E3FA7008C54DE /* Manager */,
 				5ECBF0FD205F4FB700E7EB88 /* Main.storyboard */,
 				5ECBF100205F4FB700E7EB88 /* Assets.xcassets */,
 				5ECBF102205F4FB700E7EB88 /* LaunchScreen.storyboard */,
