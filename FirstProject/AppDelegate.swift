@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow.init(frame: UIScreen.main.bounds)
-//        let readingString = "reading"
+//        add message
         var dic:[NSString:AnyObject] =  String.readingData() as [NSString : AnyObject]
         let type:String = dic["type"] as! String
         if type.isEmpty {
